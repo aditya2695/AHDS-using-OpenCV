@@ -27,11 +27,6 @@ Libraries used in the application are:
 4. The video with live headlight detection pops up.
 
 
-![cluster](images/cluster.png)
-
-<img src="images/cluster_screen.png">
-<p style="align:center"> Figure 2: Various Lattice types of CaO clustered heirarchically  </p>
-
 
 
 
