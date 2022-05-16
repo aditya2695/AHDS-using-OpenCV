@@ -119,16 +119,14 @@ class HLDetectection():
             return 0 
         
 
+if __name__ == "__main__":
 
-TEMPLATE_LOCATION = 'template/temp2.png'                    
-video_source = 'videos/mvk.avi'   
+    TEMPLATE_LOCATION = 'template/temp2.png'                    
+    video_source = 'videos/mvk.avi'   
 
-hl_detector = HLDetectection(template_loc=TEMPLATE_LOCATION,video_file=video_source,threshold=0.8715)
-hl_detector.initDetection()
-hl_detector.stopCapture()
-
-
-
+    hl_detector = HLDetectection(template_loc=TEMPLATE_LOCATION,video_file=video_source,threshold=0.8715)
+    hl_detector.initDetection()
+    hl_detector.stopCapture()
 
 
 
